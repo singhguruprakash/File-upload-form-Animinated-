@@ -1,0 +1,30 @@
+<html>  
+<head>  
+    <title>upload</title> 
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/uploadbutton.css">
+     
+</head>  
+<body class="center">  
+    <form action = "/success" method = "post" enctype="multipart/form-data" style="text-align:center;">
+		<div class="button button1">
+		<label for="resume" ><h2>Upload Resume</h2></label>
+        <input type="file" id="docpicker" name="resume" accept="image/*,.pdf,.doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" multiple><br>
+        </div><br>
+		<div class="button button4">
+		<label for="jd"><h2>Upload Job Description</h2></label>
+        <input type="file" id="docpicker" name="jd"  ><br>
+        </div><br><br>
+		<div> 
+		<input class="buttons" type = "submit" value="  Upload ">
+		</div>
+        
+        
+    </form> 
+    
+     
+</body>  
+<style> src="upload.js"</style>
+</html>  
