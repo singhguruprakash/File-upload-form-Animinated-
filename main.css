@@ -14,10 +14,10 @@
 }
 
 .center {
-  margin: 100px;
-  width: 315px;
+  margin: auto;
+  width: 330px;
   height:330px;
-  border: 1px solid #010;
+  border: 1px solid green;
   padding: 10px;
 }
 
